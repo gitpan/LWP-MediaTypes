@@ -1,0 +1,7 @@
+_______________________________________________________________________________
+2011-02-25 LWP-MediaTypes 6.00
+
+Initial release of LWP-MediaTypes as a separate distribution. There are no code
+changes besides incrementing the version number since libwww-perl-5.837.
+
+The LWP::MediaTypes module used to be bundled with the libwww-perl distribution.
