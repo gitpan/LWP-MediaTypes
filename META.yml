@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               LWP-MediaTypes
-version:            6.00
+version:            6.01
 abstract:           guess media type for a file or a URL
 author:
     - Gisle Aas <gisle@activestate.com>
