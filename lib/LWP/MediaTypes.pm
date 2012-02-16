@@ -4,7 +4,7 @@ require Exporter;
 @ISA = qw(Exporter);
 @EXPORT = qw(guess_media_type media_suffix);
 @EXPORT_OK = qw(add_type add_encoding read_media_types);
-$VERSION = "6.01";
+$VERSION = "6.02";
 
 use strict;
 
@@ -39,13 +39,6 @@ my %suffixEncoding = (
 
 read_media_types();
 
-
-
-sub _dump {
-    require Data::Dumper;
-    Data::Dumper->new([\%suffixType, \%suffixExt, \%suffixEncoding],
-		      [qw(*suffixType *suffixExt *suffixEncoding)])->Dump;
-}
 
 
 sub guess_media_type

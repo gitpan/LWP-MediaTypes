@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               LWP-MediaTypes
-version:            6.01
+version:            6.02
 abstract:           guess media type for a file or a URL
 author:
     - Gisle Aas <gisle@activestate.com>
@@ -11,15 +11,15 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    perl:  5.008008
+    perl:  5.006002
 resources:
     MailingList:  mailto:libwww@perl.org
-    repository:   http://github.com/gisle/libwww-perl
+    repository:   http://github.com/gisle/lwp-mediatypes
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+generated_by:       ExtUtils::MakeMaker version 6.57_05
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
